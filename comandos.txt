@@ -1,0 +1,12 @@
+Comandos utilizados na tarefa:
+mkdir Curso-GIT-IFRN
+cd Curso-GIT-IFRN
+git init
+git config user.name Pedro Emanuel
+git config user.email pedroemanueleq@gmail.com
+echo Pedro Emanuel - Matrícula: 20242158060005 > dados.txt
+git add dados.txt
+git commit -m Adicionei o arquivo com nome e matrícula
+git remote add origin https://github.com/pedremanuell/curso-git-ead-ifrn.git
+git branch -M main
+git push -u origin main
